@@ -1,0 +1,143 @@
+<!Doctype html>
+	<html lang="en">
+	<head>
+		
+		                                  <title>Zanith Bank</title>
+		                                  <meta name="viewport" content="width=device-width, initial-scale=1">
+		                                  <link rel="stylesheet" type="text/css" href="cssNext.css">
+
+	</head>
+	<body>
+		
+<div id="div2">
+	<p align="center"><img src="zanith2.png" width="20%"></p>
+<p class="p">Create an account with Zero Naira, get an instant debit card and start transaction <br> </p>
+
+         <form name="frmdataentry" action="processor.html" method="post">
+							    <h1 align="center"><font color="red"> OPENING ACCOUNT</font></h1>
+							                                         
+							<font color="red"> BIO DATA</font> <hr>
+                                                         <label for="Sname">Surname:</label>
+                                                                    <input type="tex" id="Sname" placeholder="Enter your Surname" maxlength="50" required> 
+<br><br>
+                                                         <label for="fname">First Name:</label>
+                                                                    <input type="tex" id="fname" placeholder="Enter your first name" maxlength="50" required>  <br> <br> 
+                                             
+                                                         <label for="Oname"> Other Name:</label>
+                                                                    <input type="tex" id="Oname" placeholder="Enter your other" maxlength="50" required> 
+                                                                    <br> <hr>
+                                                         <label for="dob"> Date of birth</label>
+                                                         <input type="date" id="dob" required /> </br>
+
+                                                                    <br>
+                                                                     <label for="place">Place of Birth:</label>
+                                                                    <input type="tex" id="place" placeholder="Place of Birth" maxlength="50" required> 
+
+                                                    <br> <hr>
+                                                                     <label for="country">Country:</label>
+                                                                    <input type="tex" id="country" placeholder=" input your country" maxlength="50" required> 
+                                                                    
+<br><br>
+                                                          <label for="state">State of Origin:</label>
+                                                                    <input type="tex" id="state" placeholder=" input your state" maxlength="50" required> 
+                                                                   <br><br>  
+                                              <label for="local" >Local Gov't Council:</label>
+                                                                    <input type="tex" id="local" placeholder=" input your Local Gov't Council" maxlength="50" required> 
+                                                        <br> <hr>
+
+                                             	 <label for="home" > Home Town:</label>
+                                                                    <input type="tex" id="home" placeholder=" input your home town" maxlength="50" required> 
+
+                                                                    <br><br>  
+                                                     <label for="address" > Home Address :</label>
+                                                                    <input type="tex" id="address" placeholder=" input your home address" maxlength="50" required> 
+                                                                   <br> <br>
+
+                                                   <font color="red"> OTHERS DATA</font> <hr>
+
+                                                   <label for="title" > Title :</label>
+                                                                    <input type="tex" id="title" placeholder="Mr/Mrs/Dr/Prof/Engr" maxlength="4" required> 
+                                                                    <br><br>
+                                                                    Gender:<br>
+                                             <input type="radio" name="sex" id="male" required>
+                                             <level for="male">male</level>
+                                             <input type="radio" name="sex" id="female" required>
+                                             <level for="female">female</level>
+                                                                 <br><br>
+                                                                 Marital Status:<br>
+                                         
+                                             <input type="radio" name="sex" id="male" required>
+                                             <level for="male">Married</level>
+                                             <input type="radio" name="sex" id="female" required>
+                                             <level for="female">Single</level> <input type="radio" name="sex" id="male" required>
+                                             <level for="male">Divorce</level>
+                                                                                           <br><br>
+                                                               Physical chellenge:<br>
+                                                                <level for="non">Non Disable</level>
+                                                                 <input type="radio" name="sex" id="non" required>
+                                                 <level for="Disable"> Disable</level>
+                                             <input type="radio" name="sex" id="Disable" required>
+                                             <br><hr>
+
+                                             Mode of Verification:<br>
+
+                                              <level for="nin">NIN</level>
+                                             <input type="radio" name="sex" id="nin" required>
+                                             <level for="vo">Voters Card</level>
+                                               <input type="radio" name="sex" id="vo" required>
+                                               <br>
+                                               <level for="var"> Verification Code</level>
+                                               <input type="number" id="var" placeholder="NIN/Voter's id" required >
+                                               <br><hr>
+
+                                                <br>
+                                             <font color="red"> ACCOUNT INFO</font> <hr>
+
+                                             <input type="radio" name="sex" id="male" required>
+                                             <level for="male">Saving Acc</level>
+                                             <input type="radio" name="sex" id="female" required>
+                                             <level for="female">Current Acc</level>
+                                             <br><br>
+                                               <label for="phone"> Phone Number</label> 
+                                                        <input type="tel" id="phone" placeholder="081xxxxxxxxxxxx" maxlength="14" required> <br><br>
+                                                          <label for="email"> Email Address</label>
+                                            <input type="email" id="email" placeholder="name20@gmail.com" maxlength="50" required>
+                                            <br><br>
+                                            <label for="phone"> Alert Phone Number</label> 
+                                                        <input type="tel" id="phone" placeholder="081xxxxxxxxxxxx" maxlength="14" required> <br><br>
+                                                        Get Notification Through:
+                                                         <input type="radio" name="sex" id="male" required>
+                                             <level for="male">Via SMS</level>
+                                             <input type="radio" name="sex" id="female" required>
+                                             <level for="female">Via Email</level> <hr>
+
+                                            <button type="submit" onclick="myFunction()">submit</button>
+
+<script>
+function myFunction() {
+	 document.getElementById("div2").style.fontSize = "30px";
+    document.getElementById("div2").style.color = "red";
+
+
+    document.getElementById("div2").innerHTML = "Registration Successfully";
+}
+</script>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+	</html>

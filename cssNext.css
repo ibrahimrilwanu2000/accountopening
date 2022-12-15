@@ -1,0 +1,39 @@
+body {
+
+}
+
+ 
+
+#div2{
+  border:solid white;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  margin-left: em;
+  padding-top: 20px;
+  background-color: rgb(118, 116, 116);
+}
+
+.p{
+  margin-top: 1em;
+  text-align: center;
+  color: rgb(225, 37, 39);
+  font-size: 30px;
+  font-family: bold ;
+}
+
+.p1{
+  margin-top: 1em;
+  color: rgb(225, 37, 39);;
+  font-size: 25px;
+  font-family: bold ;
+}
+
+a{
+  border: solid white;
+  background-color: rgb(225, 37, 39);
+  margin-left: 20em;
+}
+form{
+  padding-left: 1em;
+}
